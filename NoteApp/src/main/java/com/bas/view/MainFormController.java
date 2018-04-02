@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class MainFormController {
-
+    Stage stage;
     ICollectionController collectionController;
     List<INote> collection;
     @FXML
@@ -33,7 +33,6 @@ public class MainFormController {
     }
 
     public MainFormController() {
-
     }
 
     @FXML
@@ -53,4 +52,5 @@ public class MainFormController {
     void editButtonClick() {
 
     }
+
 }
